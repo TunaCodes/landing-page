@@ -1,0 +1,46 @@
+body{
+    background-color: #1F2937
+}
+
+.navbar{
+    /* background-color: #1F2937; */
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+img{
+    width: 20%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
