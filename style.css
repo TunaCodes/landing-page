@@ -1,5 +1,6 @@
 body {
   background-color: #1f2937;
+  margin: 0px;
 }
 
 .navbar {
@@ -74,3 +75,13 @@ button {
   margin-top: 10px;
   font-weight: bold;
 }
+
+.fleet {
+  background-color: #e5e7eb;
+  margin: 0px;
+}
+
+.fleetitems{
+    max-width: 50%;
+}
+
