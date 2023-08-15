@@ -1,6 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #1f2937;
-  margin: 0px;
 }
 
 .navbar {
@@ -36,6 +41,7 @@ h1 {
 img {
   width: 40%;
   border-radius: 6px;
+  max-width: 100%;
 }
 .container {
   display: flex;
@@ -76,12 +82,27 @@ button {
   font-weight: bold;
 }
 
-.fleet {
+.fleet-text {
   background-color: #e5e7eb;
-  margin: 0px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  padding: 20px;
+  
+
 }
 
-.fleetitems{
-    max-width: 50%;
+
+.fleet-images{
+  display: flex;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+flex-direction: row;
+background-color: #e5e7eb;  
+justify-content: space-around;
 }
+
 
