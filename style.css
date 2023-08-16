@@ -5,16 +5,17 @@
 }
 
 body {
-  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 .navbar {
   font-weight: bolder;
   font-size: 48px;
-  color: #f9faf8;
+  
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  background-color: #1f2937;
 }
 
 .logo {
@@ -44,6 +45,7 @@ h1 {
   max-width: 100%;
 }
 .container {
+ background-color: #1f2937;
   display: flex;
   font-family: "Roboto", sans-serif;
   padding: 60px;
@@ -85,7 +87,6 @@ button {
 }
 
 .fleet-text {
-  background-color: #e5e7eb;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
@@ -93,43 +94,58 @@ button {
   text-align: center;
 
   padding: 20px;
+  padding-bottom: 52px;
 }
 
 .fleet-container {
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: #e5e7eb;
   flex-wrap: wrap;
 }
 
 .fleet-images {
-  border-radius: 8px;
+  border-radius: 6px;
   border: solid #3882f6;
   height: 213px;
   width: 15%;
 }
 
-.a3502 {
-  border-radius: 8px;
-  border: solid #3882f6;
-  height: 212px;
-  margin: 0px;
-  padding: 0px;
+figcaption {
+  font-size: 15px;
+  font-weight: bolder;
+  color: grey;
+  font-family: "Roboto", sans-serif;
 }
 
-/* .fleet-desc {
-  background-color: #e5e7eb;
-  font-size: 18px;
-  font-weight: bolder;
-  color: #1f2937;
-  font-family: "Roboto", sans-serif;
-} */
+.colour {
+  height: 350px;
+}
 
-figcaption{
+.cessna {
+  text-align: center;
+}
+
+.quote-container {
   background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.quote-text {
+  font-size: 25px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-footer {
+  display: flex;
+  justify-content: flex-end;
   font-size: 18px;
   font-weight: bolder;
   color: #1f2937;
   font-family: "Roboto", sans-serif;
+  margin-top: 30px;
 }
