@@ -107,20 +107,29 @@ button {
   border-radius: 8px;
   border: solid #3882f6;
   height: 213px;
+  width: 15%;
 }
 
 .a3502 {
   border-radius: 8px;
   border: solid #3882f6;
   height: 212px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.fleet-desc {
+/* .fleet-desc {
   background-color: #e5e7eb;
   font-size: 18px;
   font-weight: bolder;
   color: #1f2937;
   font-family: "Roboto", sans-serif;
-  display: flex;
+} */
 
+figcaption{
+  background-color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #1f2937;
+  font-family: "Roboto", sans-serif;
 }
